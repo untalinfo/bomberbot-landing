@@ -1181,9 +1181,18 @@ a:hover.back-to-top {
 /*****************************/	
 
 /* Min-width width 414px */
+@media (min-width: 360px) {
+
+	.slider-2 .container p {
+		margin: 2rem 3rem;
+	}
+	/* end of team */
+}
+
+/* Min-width width 414px */
 @media (min-width: 412px) {
 
-	/* tema */
+	/* team */
 	.slider-2 .icon-container {
 		text-align: center;
 	}
